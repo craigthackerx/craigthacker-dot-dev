@@ -6,7 +6,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-craigthacker-dot-dev/venv/
+craigthacker-dot-dev/.venv/
 
 # Local .terraform directories
 **/.terraform/*
