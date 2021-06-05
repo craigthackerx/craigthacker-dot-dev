@@ -14,7 +14,7 @@ author: Craig Thacker
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "https://craigthacker.dev"
   Resources:
     - Azure DevOps: "https://dev.azure.com/craigtho/craigtho-azdo"
 
