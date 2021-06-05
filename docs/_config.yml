@@ -18,7 +18,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Author's home: "https://craigthacker.dev"
 
 # --- Logo --- #
 
@@ -43,12 +43,40 @@ social-network-links:
   github: "https://github.com/craigthackerx"
   linkedin: "https://www.linkedin.com/in/craig-thacker/"
   stackoverflow: "16140100/craig-thacker"
+#  email: "someone@example.com"
+#  facebook: deanattali
+#  github: daattali
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: c/daattali
+#  medium: yourname
+#  reddit: yourname
+#  linkedin: daattali
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+#  ORCID: your ORCID ID
+#  google-scholar: your google scholar
 
+# If you want to show a link to an RSS in the footer, add the site description here.
+# If you don't want to show an RSS link, remove the following line.
+rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
+  twitter: true
+  facebook: true
   linkedin: true
   vk: false
 
@@ -89,7 +117,7 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/images/favicon.ico"
+#navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
@@ -97,12 +125,12 @@ navbar-img: "/images/favicon.ico"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
-#site-js:
-#  - "/assets/js/custom-script.js"
+site-js:
+  - "/assets/js/custom-script.js"
 
 # --- Web Analytics Section --- #
 
@@ -163,6 +191,9 @@ navbar-img: "/images/favicon.ico"
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
 
+# Facebook App ID
+#fb_app_id: ""
+
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
@@ -205,3 +236,6 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
+# Beautiful Jekyll / Dean Attali
+# 2fc73a3a967e97599c9763d05e564189
