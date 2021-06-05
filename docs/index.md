@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## About me
 
-You can use the [editor on GitHub](https://github.com/craigthackerx/craigthacker-dot-dev/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for NHS National Services Scotland and spend alot of my time in the usual topics DevOps guys are interested in:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Terraform
+- Docker/Kubernetes
+- Python Development
+- Agile Development
+- Cloud Services - Mainly Azure
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Azure DevOps
 
-```markdown
-Syntax highlighted code block
+Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a public instance [here](https://dev.azure.com/craigtho/craigtho-azdo) - if you are interested in reading some spaghetti code
 
-# Header 1
-## Header 2
-### Header 3
+### Memes
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/craigthackerx/craigthacker-dot-dev/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+If you get to know me personally, I enjoy a good meme.  I'll roate any I make on this section below if I'm bored.
