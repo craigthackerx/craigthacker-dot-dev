@@ -1,6 +1,6 @@
 ## About me
 
-I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for NHS National Services Scotland and spend alot of my time in the usual topics DevOps guys are interested in:
+I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for NHS National Services Scotland and spend a lot of my time in the usual topics DevOps guys are interested in:
 
 - Terraform
 - Docker/Kubernetes
@@ -8,7 +8,7 @@ I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problem
 - Agile Development
 - Cloud Services
 
-I spend most of my time at work in an Azure environment and take particular interest in it, if you are interested in collobarating or want to get in contact with me, use the email link provided on this site.
+I spend most of my time at work in an Azure environment and take particular interest in it, if you are interested in collaborating or want to get in contact with me, use the email link provided on this site.
 
 
 ## Azure DevOps
@@ -17,4 +17,4 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 
 ### Memes
 
-If you get to know me personally, I enjoy a good meme.  I'll roate any I make on this section below if I'm bored.
+If you get to know me personally, I enjoy a good meme.  I'll rotate any I make on this section below if I'm bored.
