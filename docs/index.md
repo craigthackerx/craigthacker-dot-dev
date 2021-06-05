@@ -6,7 +6,9 @@ I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problem
 - Docker/Kubernetes
 - Python Development
 - Agile Development
-- Cloud Services - Mainly Azure
+- Cloud Services
+
+I spend most of my time at work in an Azure environment and take particular interest in it, if you are interested in collobarating or want to get in contact with me, use the email link provided on this site.
 
 
 ## Azure DevOps
