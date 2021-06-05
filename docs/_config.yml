@@ -38,8 +38,8 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "craigthacker95@gmail.com"
-  github: "https://github.com/craigthackerx"
-  linkedin: "https://www.linkedin.com/in/craig-thacker/"
+  github: "craigthackerx"
+  linkedin: "craig-thacker"
   stackoverflow: "16140100/craig-thacker"
 #  email: "someone@example.com"
 #  facebook: deanattali
