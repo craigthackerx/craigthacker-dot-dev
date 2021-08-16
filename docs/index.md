@@ -15,6 +15,6 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 
 ### Memes
 
-If you get to know me personally, I enjoy a good meme.  I'll rotate any I make on this section below if I'm bored. Check out the [Meme's](https://craigthacker.dev/memes) page for more.
+If you get to know me personally, I enjoy a good meme.  I'll rotate any I make on this section below if I'm bored. Check out the [Memes](https://craigthacker.dev/memes) page for more.
 
 ![meme](assets/img/meme05062021.jpg)
