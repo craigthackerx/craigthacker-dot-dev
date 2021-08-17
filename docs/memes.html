@@ -9,14 +9,6 @@ permalink: /memes.html
   <br/>
 </div>
 
-.image-gallery {
-  img:first-child {
-    display:block;
-  }
-  img {
-    display:none;
-  }
-}
 
 <div class="image-gallery" style="text-align: center;">
   {% for image in site.static_files %}
@@ -24,5 +16,35 @@ permalink: /memes.html
       <img src="{{ site.baseurl }}{{ image.path }}"/>
     {% endif %}
   {% endfor %}
+  .image-gallery {
+    img:first-child {
+      display:block;
+    }
+    img {
+      display:none;
+    }
+  }
+
+<div id="previous" onclick="prevImage();"></div>
+<div id="next" onclick="nextImage();"></div>
+
+#previous{
+  z-index:1000;
+  position: absolute;
+  left:0px;
+  width:50vw;
+  height:100vh;
+  cursor: w-resize;
+}
+
+#next{
+  z-index:1000;
+  position: absolute;
+  right:0px;
+  width:50vw;
+  height:100vh;
+  cursor: e-resize;
+}
+
 </div>
 
