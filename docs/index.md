@@ -18,5 +18,5 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 I sometimes make a memes to find some humour in my work. Find below a selection of my favorites! Check out the [Memes](https://craigthacker.dev/memes) page for more.
 
 <p align="center">
-    <img width="460" height="300" src="{{ assets/img/meme05062021.jpg | relative_url }}">
+    <img width="460" height="300" src="{{ assets/memes/meme05062021.jpg | relative_url }}">
 </p>
