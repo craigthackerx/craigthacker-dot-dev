@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title:
 gh-repo: craigthackex/craigthacker-dot-dev
 gh-badge: [star, fork, follow]
 ---
