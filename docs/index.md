@@ -1,3 +1,11 @@
+---
+layout: home
+title: Home
+gh-repo: craigthackex/craigthacker-dot-dev
+gh-badge: [star, fork, follow]
+---
+
+
 I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for [NHS National Services Scotland](https://www.nss.nhs.scot/) and spend a lot of my time in the usual topics DevOps guys are interested in:
 
 - Terraform
