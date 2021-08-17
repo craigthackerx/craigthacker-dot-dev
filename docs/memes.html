@@ -9,12 +9,11 @@ permalink: /memes.html
   <br/>
 </div>
 
-<div class="text-center"
-{% capture gallery_path %}assets/memes/{{ page.gallery-key }}{% endcapture %}
-{% for image in site.static_files %}
-    {% if image.path contains gallery_path %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+<div class="image-gallery">
+  {% for image in site.static_files %}
+    {% if image.path contains '/assets/memes' %}
+      <img src="{{ site.baseurl }}{{ image.path }}"/>
     {% endif %}
-{% endfor %}
+  {% endfor %}
 </div>
 
