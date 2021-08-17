@@ -9,6 +9,15 @@ permalink: /memes.html
   <br/>
 </div>
 
+.image-gallery {
+  img:first-child {
+    display:block;
+  }
+  img {
+    display:none;
+  }
+}
+
 <div class="image-gallery" style="text-align: center;">
   {% for image in site.static_files %}
     {% if image.path contains '/assets/memes' %}
