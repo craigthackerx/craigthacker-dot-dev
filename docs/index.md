@@ -1,7 +1,7 @@
 ---
 layout: page
-title:
-gh-repo: craigthackex/craigthacker-dot-dev
+title: Craig Thacker
+gh-repo: craigthackerx/craigthacker-dot-dev
 gh-badge: [star, fork, follow]
 ---
 
