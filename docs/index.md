@@ -5,7 +5,7 @@ gh-repo: craigthackerx/craigthacker-dot-dev
 gh-badge: [star, fork, follow]
 ---
 
-I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for [NHS National Services Scotland](https://www.nss.nhs.scot/) in the Cloud team there. I spend a lot of my time in the usual topics DevOps guys are interested in:
+I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for [NHS National Services Scotland](https://www.nss.nhs.scot/) in the Cloud team there. I am always working in the usual topics DevOps folk are, such as:
 
 - Terraform
 - Docker/Kubernetes
@@ -14,7 +14,7 @@ I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problem
 - Agile & Scrum Methodology
 - Drinking too much or too little coffee
 - Cloud Services
-- Complaining
+- Complaining in general, normally about JavaScript frameworks
 
 I spend most of my time at work in an Azure environment and take particular interest environments within Microsoft Azure, if you are interested in collaborating or want to get in contact with me, use the email link provided on this site, or contact me via Keybase for secure end-to-end encrypted messages.
 
