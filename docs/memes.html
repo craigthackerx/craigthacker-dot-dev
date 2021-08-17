@@ -9,7 +9,7 @@ permalink: /memes.html
   <br/>
 </div>
 
-<div class="image-gallery">
+<div class="image-gallery" style="text-align: center;">
   {% for image in site.static_files %}
     {% if image.path contains '/assets/memes' %}
       <img src="{{ site.baseurl }}{{ image.path }}"/>
