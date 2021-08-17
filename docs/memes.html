@@ -6,31 +6,31 @@ permalink: /memes.html
 <html>
 
 <style>
+  .image-gallery {
+    img:first-child {
+      display: block;
+    }
 
-.image-gallery {
-  img:first-child {
-    display:block;
+    img {
+      display: none;
+    }
   }
-  img {
-    display:none;
-  }
-}
-
 </style>
 
 <div class="text-center">
   <h1>Welcome to the Memes page!</h1>
-  <br/>
+  <br />
 </div>
 
 
 <div class="image-gallery" style="text-align: center;">
   {% for image in site.static_files %}
-    {% if image.path contains '/assets/memes' %}
-      <img src="{{ site.baseurl }}{{ image.path }}"/>
-    {% endif %}
+  {% if image.path contains '/assets/memes' %}
+  <img src="{{ site.baseurl }}{{ image.path }}" />
+  {% endif %}
   {% endfor %}
 
 
 </div>
+
 </html>
