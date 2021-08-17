@@ -4,29 +4,16 @@ title: Meme Page
 permalink: /memes.html
 ---
 
-<div class="text-center">
-  <h1>Welcome to the Memes page!</h1>
-  <br/>
-</div>
+<style>
 
-
-<div class="image-gallery" style="text-align: center;">
-  {% for image in site.static_files %}
-    {% if image.path contains '/assets/memes' %}
-      <img src="{{ site.baseurl }}{{ image.path }}"/>
-    {% endif %}
-  {% endfor %}
-  .image-gallery {
-    img:first-child {
-      display:block;
-    }
-    img {
-      display:none;
-    }
+.image-gallery {
+  img:first-child {
+    display:block;
   }
-
-<div id="previous" onclick="prevImage();"></div>
-<div id="next" onclick="nextImage();"></div>
+  img {
+    display:none;
+  }
+}
 
 #previous{
   z-index:1000;
@@ -45,6 +32,24 @@ permalink: /memes.html
   height:100vh;
   cursor: e-resize;
 }
+
+
+</style>
+
+<div class="text-center">
+  <h1>Welcome to the Memes page!</h1>
+  <br/>
+</div>
+
+
+<div class="image-gallery" style="text-align: center;">
+  {% for image in site.static_files %}
+    {% if image.path contains '/assets/memes' %}
+      <img src="{{ site.baseurl }}{{ image.path }}"/>
+    {% endif %}
+  {% endfor %}
+<div id="previous" onclick="prevImage();"></div>
+<div id="next" onclick="nextImage();"></div>
 
 </div>
 
