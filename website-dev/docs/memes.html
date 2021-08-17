@@ -3,19 +3,34 @@ layout: default
 title: Meme Page
 permalink: /memes.html
 ---
+<html>
+
+<style>
+
+.image-gallery {
+  img:first-child {
+    display:block;
+  }
+  img {
+    display:none;
+  }
+}
+
+</style>
 
 <div class="text-center">
   <h1>Welcome to the Memes page!</h1>
   <br/>
 </div>
 
-<div class="text-center"
-  <p><img src="{{ 'assets/img/meme05062021.jpg' | relative_url }}" alt="Meme 1" title="Meme 1"/></p>
-  <br/>
-</div>
 
-<div class="text-center"
-  <p><img src="{{ 'assets/img/meme16082021.jpg' | relative_url }}" alt="Meme 2" title="Meme2"/></p>
-  <br/>
-</div>
+<div class="image-gallery" style="text-align: center;">
+  {% for image in site.static_files %}
+    {% if image.path contains '/assets/memes' %}
+      <img src="{{ site.baseurl }}{{ image.path }}"/>
+    {% endif %}
+  {% endfor %}
 
+
+</div>
+</html>

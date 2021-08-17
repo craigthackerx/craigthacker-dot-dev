@@ -1,3 +1,11 @@
+---
+layout: page
+title: Craig Thacker
+gh-repo: craigthackerx/craigthacker-dot-dev
+gh-badge: [star, fork, follow]
+---
+
+
 I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for [NHS National Services Scotland](https://www.nss.nhs.scot/) and spend a lot of my time in the usual topics DevOps guys are interested in:
 
 - Terraform
@@ -15,8 +23,4 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 
 ### Memes
 
-If you get to know me personally, I enjoy a good meme.  I'll rotate any I make on this section below if I'm bored. Check out the [Memes](https://craigthacker.dev/memes) page for more.
-
-<p align="center">
-    <img width="460" height="300" src="(assets/img/meme05062021.jpg)">
-</p>
+I sometimes make a memes to find some humour in my work. Check out the [Memes](https://craigthacker.dev/memes) page for some of my musings!
