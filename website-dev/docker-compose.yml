@@ -1,0 +1,11 @@
+---
+version: '3.7'
+services:
+
+  terraform-compliance-website-dev-server:
+    build: .
+    image: "craigtho/craigthacker-dot-dev-web-server:latest"
+    container_name: craigthacker-dot-dev-website
+    restart: always
+    ports:
+      - "4000:4000/tcp"
