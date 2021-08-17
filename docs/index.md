@@ -23,4 +23,4 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 
 ### Memes
 
-I sometimes make a memes to find some humour in my work. Check out the Memes page for some of my musings!
+I sometimes make a memes to find some humour in my work. Check out the [Memes](https://craigthacker.dev/memes) page for some of my musings!
