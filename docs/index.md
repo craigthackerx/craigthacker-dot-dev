@@ -23,7 +23,4 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 
 ### Memes
 
-Memes
-I sometimes make a memes to find some humour in my work. Find below a selection of my favorites! Check out the Memes page for more.
-
-![meme](assets/memes/*.jpg){: .mx-auto.d-block :}
+I sometimes make a memes to find some humour in my work. Check out the Memes page for some of my musings!
