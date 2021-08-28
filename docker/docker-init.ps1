@@ -5,5 +5,5 @@ if (-Not (Get-Command docker-compose)) {
 }
 else
 {
-    Copy-Item "../docs" "./docs" ; docker-compose down --remove-orphans ; docker-compose up --build -d ; exit 0
+   Remove-Item -Force -Recurse "docs/" ; Copy-Item -Force -Recurse "../docs" . ; docker-compose down --remove-orphans ; docker-compose up --build -d ; exit 0
 }
