@@ -3,21 +3,13 @@ layout: default
 title: Meme Page
 permalink: /memes.html
 ---
-<html>
+<html lang="gb">
 <head>
-<style>
-  .image-gallery {
+  <style>
+  </style>
+  <title>
 
-  img:first-child {
-    display: block;
-  }
-
-    img {
-      display: none;
-    }
-
-  }
-</style>
+  </title>
 </head>
 
 <div class="text-center">
@@ -26,14 +18,9 @@ permalink: /memes.html
 </div>
 
 
-<div class="image-gallery" style="text-align: center;">
-  {% for image in site.static_files %}
-  {% if image.path contains '/assets/memes' %}
-  <img src="{{ site.baseurl }}{{ image.path }}" />
-  {% endif %}
-  {% endfor %}
-
-
+<div id="image-fetch" class="image-gallery" style="text-align: center;">
+  <script src="assets/js/chooseimage.js">
+  </script>
 </div>
 
 </html>

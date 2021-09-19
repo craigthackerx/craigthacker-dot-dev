@@ -18,24 +18,8 @@ permalink: /memes.html
 </div>
 
 
-<div class="image-gallery" style="text-align: center;">
-  <script>
-    window.onload = chooseImage;
-
-    let images = [
-      "assets/memes/meme1.jpg",
-      "assets/memes/meme2.jpg",
-      "assets/memes/meme3.jpg",
-      "assets/memes/meme4.jpg",
-      "assets/memes/meme5.jpg",
-      "assets/memes/meme6.jpg"
-    ];
-
-    function chooseImage() {
-      let randomNumber = Math.floor(Math.random() * images.length);
-      document.getElementById("image-gallery").src = images[randomNumber];
-    }
-
+<div id="image-fetch" class="image-gallery" style="text-align: center;">
+  <script src="assets/js/chooseimage.js">
   </script>
 </div>
 
