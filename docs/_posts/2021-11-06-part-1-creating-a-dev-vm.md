@@ -1,9 +1,9 @@
 ---
-layout: blog
+layout: post
 title: Part 1 - Creating a DevOps Environment
+subtitle: But it works on my machine!
 permalink: /blog/dev-env-p1
 ---
-# But it works on my machine!
 
 One thing that can be a huge pain when working in modern IT is the need for a developer space.  It is a constant struggle between the release of newer and greater products, and the need for engineers to make this production ready.
 
@@ -20,4 +20,4 @@ There are far too many products to cover in 1 blog, and everyone's workflow is d
 - Part 5 - Hosting your Azure DevOps agent in Azure using [Azure Container Instances](https://azure.microsoft.com/en-gb/services/container-instances/#overview)
 
 
-![Works on my machine](/docs/assets/memes/meme7.jpg)
+![Works on my machine](/assets/memes/meme7.jpg)
