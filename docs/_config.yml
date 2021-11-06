@@ -17,6 +17,7 @@ navbar-links:
   About Me: "https://craigthacker.dev"
   Resources:
     - Azure DevOps: "https://dev.azure.com/craigtho/craigtho-azdo"
+    - Blog: "https://craigthacker.dev/blog"
     - Memes: "https://craigthacker.dev/memes"
 
 # --- Logo --- #
