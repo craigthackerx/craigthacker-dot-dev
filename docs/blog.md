@@ -5,4 +5,4 @@ gh-repo: craigthackerx/craigthacker-dot-dev
 permalink: /blog
 ---
 
-- Creating a Dev Environment
+- [Part 1 - Creating a DevOps Environment VM using Vagrant](https://craigthacker.dev/blog/dev-env-p1)
