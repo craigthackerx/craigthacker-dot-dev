@@ -14,6 +14,8 @@ I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problem
 - Drinking too much or too little coffee
 - Cloud Services
 - Complaining in general, normally about JavaScript frameworks
+- Highly available Solution Architecture
+- Cyber Security
 
 I spend most of my time at work in an Azure environment and take particular interest environments within Microsoft Azure, if you are interested in collaborating or want to get in contact with me, use the email link provided on this site, or contact me via Keybase for secure end-to-end encrypted messages.
 
@@ -26,6 +28,9 @@ Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a p
 
 I sometimes make memes to find some humour in my work. Check out the [Memes](https://craigthacker.dev/memes) page for some of my musings.
 
+## Blog
+
+I have started blogging again! Check out what I've got at the [blogs page](https://craigthacker.dev/blog)
 
 ### Website
 
