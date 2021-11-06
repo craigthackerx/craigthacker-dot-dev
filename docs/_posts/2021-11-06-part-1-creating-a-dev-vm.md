@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part 1 - Creating a DevOps Environment
+title: Part 1 - Creating a DevOps Environment - VM using Vagrant
 subtitle: But it works on my machine!
 permalink: /blog/dev-env-p1
 ---
