@@ -19,5 +19,6 @@ There are far too many products to cover in 1 blog, and everyone's workflow is d
 - Part 4 - Building your own Self-Hosted Azure DevOps agent using [Podman](https://podman.io/)
 - Part 5 - Hosting your Azure DevOps agent in Azure using [Azure Container Instances](https://azure.microsoft.com/en-gb/services/container-instances/#overview)
 
-
-![Works on my machine](/assets/memes/meme7.jpg)
+<p align="center" width="100%">
+    <img width="33%" src="/assets/memes/meme7.jpg">
+</p>
