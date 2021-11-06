@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Meme Page
-permalink: /blog
+title: Dev Env
+permalink: /blog/dev-env
 ---
 
 Test
