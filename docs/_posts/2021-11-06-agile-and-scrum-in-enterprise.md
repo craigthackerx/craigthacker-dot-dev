@@ -4,8 +4,7 @@ title: Agile SCRUM in Enterprise - An Engineer's perspective
 subtitle: What is your forecast for today?
 permalink: /blog/agile-and-scrum-in-enterprise
 ---
-
-[[_TOC_]]
+## Introduction
 
 Agile in a tech company workplace is huge.  I had recently watched [BDD Is Not About Testing](https://www.youtube.com/watch?v=6nSwRSbc27g) by Dan North as well as doing some amazing online training from [Alan Kelly](https://www.allankelly.net/) on Agile (big thanks to DH for setting my up with it!)
 
@@ -38,9 +37,10 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
 
 
 - The KanBan Board and User Stories - To quote Alan Kelly:
+<br/>
 > A story is a placeholder for a conversation
   - Having tasks defined in a correct way helps collaborate with customers and be able to understand the task at hand for the engineer to implement.  The flow of the tasks on a board from Left to Right helps demonstrate work reaching a state of completeness and the flow of your KanBan can be setup to work with your own flow.
-  
+<br/>
 
 - Retrospective - a retrospective (a ritual meeting which happens at the end of a sprint) to discuss your "What went well," "What can be improved" and "What went poorly" can truly help be a "counselling session" and drive a team to make improvements to their workflow, the nature of their own work and many other things.  It helps managers understand what the things in a transparent nature that can be improved are, without formal meetings or bureaucracy
 
@@ -55,7 +55,7 @@ As a User
 I would like to be able to login using my Google Account
 So that I do not need to remember different logins
 ```
-
+<br/>
   - As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature.  I can then generate the tasks and have a conversation with my team about it at the sprint plan session.  It is entirely agonising to have to detail step by step of how this can be achieved in a single large ticket.  That's what Epic's and Smaller tasks are for.
 
 
