@@ -62,7 +62,7 @@ vagrant plugin install vagrant-vbguest ; vagrant plugin install vagrant-disksize
 For me, this was straight forward, I went on [Vagrant Cloud](https://app.vagrantup.com/). and searched for Debian 11'
 
 <p align="center">
-    <img src="/assets/img/vagrant-debian-11.png">
+    <img src="/assets/img/vagrant-debian11.png">
 </p>
 
 Next, I prepared a trusty [Vagrantfile](https://github.com/craigthackerx/devops-environment/tree/main/VMs/vagrant-base-image-build/Debian11/Vagrantfile):
@@ -73,12 +73,14 @@ Next, I prepared a trusty [Vagrantfile](https://github.com/craigthackerx/devops-
 Vagrant.configure("2") do |config|
   config.vm.box = "debian/bullseye64"
   config.vm.hostname = "debian-11-base"
+  config.vbguest.auto_update = false
+  config.disksize.size = '50GB'
 
   config.vm.provider "virtualbox" do |v|
     v.cpus = "2"
     v.memory = "4096"
     v.name = "devops-vm"
-    end
+  end
 
 #Check the repo for the full version!
 ```
