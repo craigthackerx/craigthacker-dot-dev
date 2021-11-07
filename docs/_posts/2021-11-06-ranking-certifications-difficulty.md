@@ -43,3 +43,7 @@ This exam is a fundamentals course, so of course it is meant to be easy.  It req
 ### HashiCorp Certified: Terraform Associate - 5/10
 
 Not easy, not hard, somewhere in the middle.  This being a vendor exam, then you need to know very specific things about the product as well as general programming knowledge, and how they are implemented in the Terraform DSL.
+
+<p align="center">
+    <img src="/assets/img/terraform-associate.png">
+</p>
