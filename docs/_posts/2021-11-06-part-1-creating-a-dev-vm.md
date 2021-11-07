@@ -44,6 +44,8 @@ I have split this into 2 parts:
 
 And for this, I am going to use **Debian 11**.  Why?  I had originally considered RedHat due to the new subscription model, and this is what many of us Linux users are using in Production anyway, but I didn't know the legality of using RHEL images on the Vagrant Cloud, and wanted something completely free.  Why not Fedora, RockyLinux or AlmaLinux? Mainly because I want to pickup something which _could_ go into production, so if not RHEL, then the Debian/Ubuntu family is the next logical step for most veterans.
 
+Another point to use Debian is the inclusion of Podman into the upstream repositories, where I will reuse my base image later for demonstrative purposes.
+
 ### Vagrant Quick Install and Initial Prep
 As I said, I am currently running this on my Windows desktop - and I already had [Chocolatey](https://chocolatey.org/install) installed, so installing vagrant and virtualbox was as easy as:
 
@@ -65,7 +67,7 @@ For me, this was straight forward, I went on [Vagrant Cloud](https://app.vagrant
     <img src="/assets/img/vagrant-debian11.png">
 </p>
 
-Next, I prepared a trusty [Vagrantfile](https://github.com/craigthackerx/devops-environment/tree/main/VMs/vagrant-base-image-build/Debian11/Vagrantfile):
+Next, I prepared a trusty [Vagrantfile](https://github.com/craigthackerx/devops-environment/blob/main/VMs/vagrant-devops-image/Debian11/Vagrantfile):
 
 ```ruby
 # -*- mode: ruby -*-
@@ -101,4 +103,30 @@ As per the spec and `Vagrantfile`, the default user is `vagrant` and the passwor
 
 ### Step 2 - Uploading my Custom Image to Vagrant Cloud to be used on my other development areas
 
-Finally, I need to package my box.
+Finally, I need to package my box. I can do this by [following the documentation](https://www.vagrantup.com/docs/providers/virtualbox/boxes) and running:
+
+```powershell
+vagrant package --base devops-vm
+```
+
+<p align="center">
+    <img src="/assets/img/vagrant-package.png">
+</p>
+
+After this is complete, I am finally ready to upload my box to the vagrant cloud!  I now need to take a SHA256 sum of my "package.box" file which was created with the last command:
+
+```bash
+sha256sum package.box
+f2702062e452accc50a6989657488c2031c2ade55893709f37d99e3a1149ff9d *package.box
+```
+
+And then create a new box on the vagrant cloud, set my version, upload my checksum and upload the package.box file:
+
+
+
+After my upload is complete, my box is published and ready for use!
+
+## Validation
+
+For this final part, I am going to pull my box down on my Pop_OS! laptop, just to demonstrate how the use of multiple providers always me to create a nice easy consistent environment between all my machines and focus on my development.
+

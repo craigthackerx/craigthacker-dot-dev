@@ -30,20 +30,107 @@ This post is to detail what certs I actively have and judge difficulty for **me*
 
 ## Scoring
 
-For this, I am going to score the exams in an "out of 10" factor, where 0 is "very very easy, little to no study at all" and 10 is "very very hard, it took me a long time to prepare"
+For this, I am going to score the exams in an "out of 10" factor, where 0 is "very very easy, little to no study at all" and 10 is "very very hard, it took me a long time to prepare".  I will also include some quick bullet points of my recommendations on what I think you should study for these exams.
+
+I will also try to keep a list of some study materials at each level in these bullet points that I personally used.
+
+Always be sure to check the Exams Skills outline at the various vendors before jumping in to study!
 
 ### AZ-900 - Microsoft Certified: Azure Fundamentals - 1/10
 
 This exam is a fundamentals course, so of course it is meant to be easy.  It requires a little study on Azure for you to pass, but around 1 or 2 months real world experience will likely be more than enough to get to grips.
 
+- Study on basic cloud concepts, what is IaaS, what is PaaS, what is SaaS.
+- Can you explain the cloud journey you will be expected to go on? Cloud native, lift and shift, hybrid...
+- What is CapEx? What is OpEx?
+- Introduction questions on how SLA's work in Azure, how am I credited, can I get 99.99% with `${THIS_THING}`?
+- [Microsoft Learn - AZ-900 cloud concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/)
+
 <p align="center">
     <img src="/assets/img/azure-fundamentals.png">
 </p>
+
 
 ### HashiCorp Certified: Terraform Associate - 5/10
 
 Not easy, not hard, somewhere in the middle.  This being a vendor exam, then you need to know very specific things about the product as well as general programming knowledge, and how they are implemented in the Terraform DSL.
 
+- What is a `list` and a `map` in terraform?
+- How can I manage multiple states?
+- What can I use as a backend for state storage?
+- What features does HCP/Terraform Cloud give me?
+- [Bryan Krausen - HashiCorp Certified: Terraform Associate Practice Exam 2021](https://www.udemy.com/course/terraform-associate-practice-exam/)
+
 <p align="center">
     <img src="/assets/img/terraform-associate.png">
 </p>
+
+
+### AZ-104 - Microsoft Certified: Azure Administrator Associate - 7/10
+
+Now hear me out, if you are reading this and saying "I have the 104, it was easy!" - Sure, I get it, it isn't an expert level cert like Solutions Architect or DevOps Engineer, but, this exam has a **huge** increase in difficulty and at the time I took it, that was a little of a shock to the system.
+
+The difficulty jump from one of the expert certs to this one still their, I believe Microsoft has categorised these correctly, but the difference from the AZ-900 -> AZ-104 is astronomical, you need to know so much more about the platform to have a chance of passing, whereas I'd argue the AZ-900 could be guessed (it is advertised for non-technical people, so of course it is meant to be that way)
+
+- What does this Kubernetes YAML do?
+- What happens in a networking scenario, where VM1 tries to use VM3 as a router to talk to VM2.
+- Why doesn't this environment do what we expect it to do?
+- What variable do I need in this ARM template
+- [John Savill - various YouTube videos in areas of Azure](https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ)
+
+<p align="center">
+    <img src="/assets/img/azure-administrator.png">
+</p>
+
+
+### AZ-400 - Microsoft Certified: DevOps Engineer Expert - 8/10
+
+This was probably my toughest cert to date.  I have lived and breathed DevOps for 3 years and it took me around 3 weeks of studying 3 hours a day to prepare for this.  It expects you to understand components of Agile, various code related issues, how to create and release pipelines, diagnose and fix Kubernetes YAML and much much more.  I think it could do better at trying to keep itself less "Microsofty" and giving questions in Terraform or some Python code questions instead of the .NET ones I faced, but still a good exam to pursue.
+
+Should also not, to complete this at the time, you need the AZ-104 or AZ-204 (Azure Developer Associate) + an additional exam to gain this cert.  I obviously had the former.
+
+- What is a Burdown Chart?
+- What can I use to scan my .NET code
+- Using the Azure CLI, how can I create ${THIS_THING}
+- How do I make my Dockerfile faster?
+- [WhizLabs - AZ-400 training courses](https://www.whizlabs.com/microsoft-azure-certification-az-400/)
+
+<p align="center">
+    <img src="/assets/img/azure-devops-engineer.png">
+</p>
+
+
+### AZ-303+304 - Microsoft Certified: Azure Solutions Architect Expert - 8/10
+
+These 2 exams are actually deprecated now in favor of a combination of AZ-104 + AZ-305, which makes a lot of sense after I had sat the 104.  Previously the recommended path for Architects as AZ-900 -> AZ-303 and as stated prior, there was a huge jump from AZ-900 -> AZ-104 and the AZ-104 is an associate level exam, whereas 303 is an expert level.
+
+The 303 of these 2 was quite challenging I'd say, the 304 was easier and asked to know more high level details about what is and what wasn't possible with certain SKU's in Azure, so combining those 2 into the new 305 makes a lot of sense
+
+- Understanding the different types of load balancers
+- Understanding the different types of app service offers
+- Understanding how to prepare a project with Azure at scale
+- [Cloud Patterns and Architecture for Microsoft Azure Developers](https://app.pluralsight.com/library/courses/microsoft-azure-cloud-patterns-architecture/table-of-contents)
+
+<p align="center">
+    <img src="/assets/img/azure-solutions-architect.png">
+</p>
+
+
+### AZ-500 - Microsoft Certified: Azure Security Engineer Associate - 5/10
+
+Full disclosure in that I went to university and study a postgradute degree in Information and Network security, so the concepts of increasing posture and various infosec policies did not phase me in this exam.
+
+I think this exam could be a lot better or even have an expert level to discuss considerations with general security questions, for example, why you should use a Firewall over a NSG and what not.
+
+- What does PIM do, when I activate this role, does this happen?
+- When my tenant is synced this way, what accounts do I need?
+- What is the least privilege IAM roles to perform `${TASK}`
+- [Inside Cloud and Security YouTube Channel](https://www.youtube.com/channel/UCAr0yk0um7lwLjmrKfzwyig)
+
+<p align="center">
+    <img src="/assets/img/azure-security-engineer.png">
+</p>
+
+## So what's next?
+
+I plan to sit atleast 2 more certifications before the end of 2021 and try to update this list with my verdict of those, but hopefully this list has given an idea of how difficult I have judged the exams I have done thus far.
