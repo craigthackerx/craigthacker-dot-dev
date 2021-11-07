@@ -47,6 +47,7 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
 <br/>
 
 > A story is a placeholder for a conversation
+
   - Having tasks defined in a correct way helps collaborate with customers and be able to understand the task at hand for the engineer to implement.  The flow of the tasks on a board from Left to Right helps demonstrate work reaching a state of completeness and the flow of your KanBan can be setup to work with your own flow.
 
 <br/>
@@ -59,11 +60,11 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
 
 - Strict ticketing rules - For me agility is also fluidity, tickets should be filled in to be as complete as possible, that's why I love user stories.  Conveying what a task is in 4/5 lines makes complete sense:
 
-```markdown
-As a User
-I would like to be able to login using my Google Account
-So that I do not need to remember different logins
-```
+  ```markdown
+  As a User
+  I would like to be able to login using my Google Account
+  So that I do not need to remember different logins
+  ```
 <br/>
 
    - As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature.  I can then generate the tasks and have a conversation with my team about it at the sprint plan session.  It is entirely agonising to have to detail step by step of how this can be achieved in a single large ticket.  That's what Epic's and Smaller tasks are for.
@@ -73,7 +74,11 @@ So that I do not need to remember different logins
 
 ## But it won't work for me!
 
-One thing that some people who are against working in Agile say is that it "won't work" for them.  The idea of having a standup or actually tracking tasks will just waste time, not save it. I appreciate that some may feel this way when they aren't managing their time with a framework now, but Agile doesn't need to implemented to the letter for every person, its always hard at first, and it can seem pointless, but if you stick to it, figure out what works and doesn't work, you will as a whole improve and as my number 1 benefit was - be more transparent.
+One thing that some people who are against working in Agile say is that it "won't work" for them.  The idea of having a standup or actually tracking tasks will just waste time, not save it. 
+
+I appreciate that some may feel this way when they aren't managing their time with a framework now, but Agile doesn't need to implemented to the letter for every person, its always hard at first, and it can seem pointless, but if you stick to it, figure out what works and doesn't work, you will as a whole improve and as my number 1 benefit was - be more transparent.
+
+The earlier you begin your Agile transformation, the quicker you can begin seeing benefits of it, constant dread and culture resistance will not get an organisation anyway.
 
 ## But what should we use?
 
