@@ -27,6 +27,10 @@ I am storing all my source for this on my GitHub, in the
 
 ___
 
+## My environment
+
+Right now, I am running this lab on my Desktop which is running Windows 10 latest.  These tools are all cross-platform, so it makes sense I pick the one with the most firepower to save me time.  My laptop may feature in later which is running Pop_OS! latest
+
 ## Vagrant
 
 Vagrant is (another) great tool by HashiCorp, it essentially allows you to produce a local development environment in a simple Infrastructure as Code style using a Ruby syntax.  Local development is not something I am doing alot of these days, I would say I am more in the Part 3 of this series camp, where I have an environment I can test deployments to in Azure, but nonetheless, if you are developing locally, then Vagrant might be the answer you are looking for.
@@ -40,6 +44,59 @@ I have split this into 2 parts:
 
 And for this, I am going to use **Debian 11**.  Why?  I had originally considered RedHat due to the new subscription model, and this is what many of us Linux users are using in Production anyway, but I didn't know the legality of using RHEL images on the Vagrant Cloud, and wanted something completely free.  Why not Fedora, RockyLinux or AlmaLinux? Mainly because I want to pickup something which _could_ go into production, so if not RHEL, then the Debian/Ubuntu family is the next logical step for most veterans.
 
+### Vagrant Quick Install and Initial Prep
+As I said, I am currently running this on my Windows desktop - and I already had [Chocolatey](https://chocolatey.org/install) installed, so installing vagrant and virtualbox was as easy as:
+
+```powershell
+choco install vagrant virtualbox
+```
+
+One other quick thing to prep was installing the VBguest plugin to vagrant:
+
+```powershell
+vagrant plugin install vagrant-vbguest ; vagrant plugin install vagrant-disksize
+```
+
 ### Step 1 - Picking my base image
 
-For me, this was straight forward, I went on [Vagrant Cloud](https://app.vagrantup.com/). and searched for Debain 11
+For me, this was straight forward, I went on [Vagrant Cloud](https://app.vagrantup.com/). and searched for Debian 11'
+
+<p align="center">
+    <img src="/assets/img/vagrant-debian-11.png">
+</p>
+
+Next, I prepared a trusty [Vagrantfile](https://github.com/craigthackerx/devops-environment/tree/main/VMs/vagrant-base-image-build/Debian11/Vagrantfile):
+
+```ruby
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+Vagrant.configure("2") do |config|
+  config.vm.box = "debian/bullseye64"
+  config.vm.hostname = "debian-11-base"
+
+  config.vm.provider "virtualbox" do |v|
+    v.cpus = "2"
+    v.memory = "4096"
+    v.name = "devops-vm"
+    end
+
+#Check the repo for the full version!
+```
+
+And ran `vagrant up`:
+
+<p align="center">
+    <img src="/assets/img/vagrant-up.png">
+</p>
+
+And then waiting some time for the scripts to run...
+
+Finally, I am given my now complete VM in VirtualBox ready to login.
+
+I can login either VirtualBox "Show"/console or I can run `vagrant ssh` to automatically connect.
+
+As per the spec and `Vagrantfile`, the default user is `vagrant` and the password is `vagrant`.
+
+### Step 2 - Uploading my Custom Image to Vagrant Cloud to be used on my other development areas
+
+Finally, I need to package my box.
