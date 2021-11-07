@@ -57,6 +57,7 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
 
 - Multiple Standups and "Checkpoints" a day - I don't care what Agile book you read or who you are in the Agile world.  Not a single engineer wants seperated from there work when they are "in the zone".  Software development, system engineering and IT Administration can very challenging, and taking someone out of a thought process to ask me what I am doing - Information which is readily available at the daily standup and on the KanBan board, is plain awful.
 
+
 - Strict ticketing rules - For me agility is also fluidity, tickets should be filled in to be as complete as possible, that's why I love user stories.  Conveying what a task is in 4/5 lines makes complete sense:
 
   ```markdown
@@ -66,7 +67,7 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
   ```
 
 
-  - As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature.  I can then generate the tasks and have a conversation with my team about it at the sprint plan session.  It is entirely agonising to have to detail step by step of how this can be achieved in a single large ticket.  That's what Epic's and Smaller tasks are for.
+- As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature.  I can then generate the tasks and have a conversation with my team about it at the sprint plan session.  It is entirely agonising to have to detail step by step of how this can be achieved in a single large ticket.  That's what Epic's and Smaller tasks are for.
 
 
 - No Product Owner to each project - If you don't have someone who is an interested party available to discuss with a project, then Agile quickly falls apart.  "Who is the product owner?", should **always** have an answer.  If there isn't one, then you have serious issues about how your project is being managed.  This isn't an inherent problem with Agile but with organisations, it may not be normal to have someone be assigned as a product owner, but it is a must for Agile to work in my eyes
