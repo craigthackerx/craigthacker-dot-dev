@@ -49,8 +49,7 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
 > A story is a placeholder for a conversation
 
   - Having tasks defined in a correct way helps collaborate with customers and be able to understand the task at hand for the engineer to implement.  The flow of the tasks on a board from Left to Right helps demonstrate work reaching a state of completeness and the flow of your KanBan can be setup to work with your own flow.
-
-<br/>
+  
 
 - Retrospective - a retrospective (a ritual meeting which happens at the end of a sprint) to discuss your "What went well," "What can be improved" and "What went poorly" can truly help be a "counselling session" and drive a team to make improvements to their workflow, the nature of their own work and many other things.  It helps managers understand what the things in a transparent nature that can be improved are, without formal meetings or bureaucracy
 
@@ -67,10 +66,10 @@ To try and dissect my "Agile is for everyone" comment, I think it'd be good to g
   ```
 
 
-- As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature.  I can then generate the tasks and have a conversation with my team about it at the sprint plan session.  It is entirely agonising to have to detail step by step of how this can be achieved in a single large ticket.  That's what Epic's and Smaller tasks are for.
+  - As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature.  I can then generate the tasks and have a conversation with my team about it at the sprint plan session.  It is entirely agonising to have to detail step by step of how this can be achieved in a single large ticket.  That's what Epic's and Smaller tasks are for.
 
 
-  - No Product Owner to each project - If you don't have someone who is an interested party available to discuss with a project, then Agile quickly falls apart.  "Who is the product owner?", should **always** have an answer.  If there isn't one, then you have serious issues about how your project is being managed.  This isn't an inherent problem with Agile but with organisations, it may not be normal to have someone be assigned as a product owner, but it is a must for Agile to work in my eyes
+- No Product Owner to each project - If you don't have someone who is an interested party available to discuss with a project, then Agile quickly falls apart.  "Who is the product owner?", should **always** have an answer.  If there isn't one, then you have serious issues about how your project is being managed.  This isn't an inherent problem with Agile but with organisations, it may not be normal to have someone be assigned as a product owner, but it is a must for Agile to work in my eyes
 
 ## But it won't work for me!
 
