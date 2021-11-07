@@ -2,7 +2,7 @@
 layout: post
 title: Agile in Enterprise - An Engineer's perspective
 subtitle: What is your forecast for today?
-permalink: /blog/agile-and-scrum-in-enterprise
+permalink: /blog/agile-in-enterprise
 ---
 
 ## Introduction
