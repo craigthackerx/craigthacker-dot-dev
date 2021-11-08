@@ -152,7 +152,7 @@ vagrant up
 After some time downloading (again)...
 
 <p align="center">
-    <img src="/assets/img/vagrant-downloading.png">
+    <img src="/assets/img/vagrant-download.png">
 </p>
 
 My VM is alive again, but now on my laptop!  This is a great way if you have multiple developers running virtual machines in a primarily Windows world.
