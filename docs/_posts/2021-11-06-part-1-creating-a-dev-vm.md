@@ -23,7 +23,7 @@ There are far too many products to cover in 1 blog, and everyone's workflow is d
     <img src="/assets/memes/meme7.jpg">
 </p>
 
-I am storing all my source for this on my GitHub, in the
+I am storing all my source for this on my GitHub, in the nwq [Devops Environment](https://github.com/craigthackerx/devops-environment) repo.
 
 ___
 
@@ -130,3 +130,7 @@ After my upload is complete, my box is published and ready for use!
 
 For this final part, I am going to pull my box down on my Pop_OS! laptop, just to demonstrate how the use of multiple providers always me to create a nice easy consistent environment between all my machines and focus on my development.
 
+
+<p align="center">
+    <img src="/assets/memes/meme10.jpg">
+</p>
