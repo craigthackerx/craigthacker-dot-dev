@@ -162,7 +162,7 @@ My VM is alive again, but now on my laptop!  This is a great way if you have mul
 </p>
 
 
-Stay tuned for the next parts of this series and other parts of my blog!
+**Stay tuned for the next parts of this series and other parts of my blog!**
 
 <br/>
 
