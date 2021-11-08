@@ -164,6 +164,8 @@ My VM is alive again, but now on my laptop!  This is a great way if you have mul
 
 Stay tuned for the next parts of this series and other parts of my blog!
 
+<br/>
+
 <p align="center">
     <img src="/assets/memes/meme10.jpg">
 </p>
