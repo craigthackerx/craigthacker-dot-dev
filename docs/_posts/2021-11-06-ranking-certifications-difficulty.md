@@ -91,7 +91,7 @@ Should also not, to complete this at the time, you need the AZ-104 or AZ-204 (Az
 
 - What is a Burdown Chart?
 - What can I use to scan my .NET code
-- Using the Azure CLI, how can I create ${THIS_THING}
+- Using the Azure CLI, how can I create `${THIS_THING}`
 - How do I make my Dockerfile faster?
 - [WhizLabs - AZ-400 training courses](https://www.whizlabs.com/microsoft-azure-certification-az-400/)
 
