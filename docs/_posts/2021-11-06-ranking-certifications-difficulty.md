@@ -134,3 +134,7 @@ I think this exam could be a lot better or even have an expert level to discuss 
 ## So what's next?
 
 I plan to sit atleast 2 more certifications before the end of 2021 and try to update this list with my verdict of those, but hopefully this list has given an idea of how difficult I have judged the exams I have done thus far.
+
+<p align="center">
+    <img src="/assets/memes/meme11.jpg">
+</p>
