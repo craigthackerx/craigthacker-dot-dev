@@ -67,7 +67,7 @@ And now on to the bad parts:
   I would like to be able to login using my Google Account
   So that I do not need to remember different logins
   ```
-
+<br/>
 
 - As an engineer, I instantly understand this as being a ticket to implement some form of SSO feature to my product.  I can then generate the tasks and have a conversation with my team and the product owner about it at the next sprint planning session.  It is entirely agonising to have to detail step by step of how this can be achieved in a varying tickets or even worse, 1 gigantic ticket which makes me understand _less_ about a task when I am finished reading it. Keep it simple, use user stories, tasks, bugs and epics appropriate and try not to confuse them.
 
