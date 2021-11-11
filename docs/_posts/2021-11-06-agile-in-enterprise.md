@@ -81,7 +81,7 @@ And now on to the bad parts:
 
 ## But it won't work for me!
 
-One thing that some people who are against working in Agile say is that it "won't work" for them.  The idea of having a standup or actually tracking tasks will just waste time, not save it. 
+One thing that some people who are against working in Agile say is that it "_won't work_" for them.  The idea of having a standup or actually tracking tasks will just waste time, not save it. 
 
 I appreciate that some may feel this way when they aren't managing their time with a framework now, but Agile doesn't need to implemented to the letter for every person, It's always hard at first, and it can seem pointless, but if you stick to it, figure out what works and doesn't work, you will as a whole improve and as my number 1 benefit was - be more transparent.
 
