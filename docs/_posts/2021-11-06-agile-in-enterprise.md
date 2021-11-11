@@ -77,7 +77,7 @@ And now on to the bad parts:
 
 - Man days does not account for a specialist's skill - Back to what I was alluding to before, a common theme in Agile is the `X` amount of days to complete `Y` task - if the task takes 2 days to complete, and you assign 1 engineer it takes 2 days.  Great.  But listen, I have seen it, and it is a running joke about it on the internet - people genuinely think that if you assign 2 people to 5 days of work, that means the task will be complete in 2.5 days or less.  Engineer's normally joke that if you assign 2 people to a 3-day task, then it'll take 6 days for the first engineer to explain to the other what's going on and the prehistoric history of the code base before starting work. Oh, and don't forget why we don't touch the random function in the code that no one can figure what does.  
 
-  - Anyway, In Agile, we aim to have a mixture of generalists and specialist in our organisation - **do not** confuse your specialist with your generalist and vice versa - let the engineers budget the task for you on the onset, assuming they are agile trained, they will be better at estimating any technical type of work and know each other's skill sets better than anyone else. 
+  - Anyway, In Agile, we aim to have a mixture of generalists and specialists in our organisation - **do not** confuse your specialist with your generalist and vice versa - let the engineers budget the task for you on the onset, assuming they are agile trained, they will be better at estimating any technical type of work and know each other's skill sets better than anyone else. 
 
 ## But it won't work for me!
 
