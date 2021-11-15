@@ -75,7 +75,7 @@ Not easy, not hard, somewhere in the middle.  This being a vendor exam, then you
 
 Now hear me out, if you are reading this and saying "_I have the 104, it was easy!_" - Sure, I get it, it isn't an expert level cert like Solutions Architect or DevOps Engineer, but, this exam has a **huge** increase in difficulty and at the time I took it, that was a little of a shock to the system.
 
-The difficulty jump from one of the expert certs to this one still there, I believe Microsoft has categorised these correctly, but the difference from the AZ-900 -> AZ-104 is astronomical, you need to know so much more about the platform to have a chance of passing, whereas I'd argue the AZ-900 could be guessed (it is advertised for non-technical people, so of course it is meant to be that way)
+The difficulty jump from one of the expert certs to this one is still there, I believe Microsoft has categorised these difficulty levels correctly, but the difference from the AZ-900 -> AZ-104 is astronomical, you need to know so much more about the platform to have a chance of passing, whereas I'd argue the AZ-900 could be guessed (it is advertised for non-technical people, so of course it is meant to be that way)
 
 - What does this Kubernetes YAML do?
 - What happens in a networking scenario, where VM1 tries to use VM3 as a router to talk to VM2.
@@ -90,9 +90,9 @@ The difficulty jump from one of the expert certs to this one still there, I beli
 
 ### AZ-400 - Microsoft Certified: DevOps Engineer Expert - 8/10
 
-This was probably my toughest cert to date.  I have lived and breathed DevOps for 3 years and it took me around 3 weeks of studying 3 hours a day to prepare for this.  It expects you to understand components of Agile, various code related issues, how to create and release pipelines, diagnose and fix Kubernetes YAML and much much more.  I think it could do better at trying to keep itself less "Microsofty" and giving questions in Terraform or some Python code questions instead of the .NET ones I faced, but still a good exam to pursue.
+This was probably my toughest cert to date.  I have lived and breathed DevOps for 3 years and it took me around 3 weeks of studying 3 hours a day to prepare for this - with it being in mind I had ~ 2 years full time experience doing a DevOps role.  It expects you to understand components of Agile, various code related issues, how to create release pipelines in the Azure DevOps product, diagnose and fix Kubernetes YAML and much much more.  I think it could do better at trying to keep itself less "Microsofty" and giving questions in Terraform or some Python code questions instead of the .NET ones I faced, but still a good exam to pursue.
 
-Should also not, to complete this at the time, you need the AZ-104 or AZ-204 (Azure Developer Associate) + an additional exam to gain this cert.  I obviously had the former.
+Should also note, to complete this at the time, you need the AZ-104 or AZ-204 (Azure Developer Associate) + an additional exam to gain this cert.  I obviously had the former.
 
 - What is a Burdown Chart?
 - What can I use to scan my .NET code
