@@ -31,7 +31,7 @@ It is a **massive** red flag to have certs as a requirement, when the company se
 
 This post is to detail what certs I actively have and judge difficulty for **me** to learn them.  I and whoever is reading this (assuming you haven't already fallen asleep) are completely different learners, so what I found hard and what you find hard won't always match up.  As always, happy for anyone to connect with me to discuss if they are looking for pointers
 
-## Scoring
+## Let's skip to the good bit - Scoring
 
 For this, I am going to score the exams in an "_out of 10_" factor, where 0 is "_very, very easy, little to no study at all_" and 10 is "_very, very hard, it took me a long time to prepare_".  I will also include some quick bullet points of my recommendations on what I think you should study for these exams.
 
