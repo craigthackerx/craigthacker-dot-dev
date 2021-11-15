@@ -17,7 +17,7 @@ That being said:
 
 > Education's purpose is to replace an empty mind with an open one. – Malcolm Forbes
 
-And going out your way to learn something new will always help benefit the student, even if you find out you are ultimately dis-interested in the topic as much as you thought you were originally.  If you stick to what you know all the time and refuse to learn, then you will likely get into a rut where "_this is how we do things as this is what works_" and never think "_**But could this be 0better?**_"  
+And going out your way to learn something new will always help benefit the student, even if you find out you are ultimately dis-interested in the topic more than you thought you were originally.  If you stick to what you know all the time and refuse to learn, then you will likely get into a rut where "_this is how we do things as this is what works_" and never think "_**But could this be better?**_"  
 
 After all, if you do 10 hours of self-study outside of work a week versus someone who doesn't, how long is it going to be before the person who doesn't study find themselves behind to the one that does study in the tech world?
 
