@@ -9,7 +9,7 @@ window.onload = function chooseMeme() {
         "/assets/memes/meme7.jpg",
         "/assets/memes/meme8.jpg",
         "/assets/memes/meme9.jpg",
-        "/assets/memes/mem10.jpg",
+        "/assets/memes/meme10.jpg",
         "/assets/memes/meme11.jpg"
     ];
     let randomNumber = Math.floor(Math.random() * memes.length);
