@@ -52,7 +52,7 @@ This exam is a fundamentals course, so of course it is meant to be easy.  It req
 - [Microsoft Learn - AZ-900 cloud concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/)
 
 <p align="center">
-    <img src="/assets/img/azure-fundamentals.png">
+    <img src="/assets/img/azure-fundamentals.png" height="300px" width="300px">
 </p>
 
 
@@ -67,7 +67,7 @@ Not easy, not hard, somewhere in the middle.  This being a vendor exam, then you
 - [Bryan Krausen - HashiCorp Certified: Terraform Associate Practice Exam 2021](https://www.udemy.com/course/terraform-associate-practice-exam/)
 
 <p align="center">
-    <img src="/assets/img/terraform-associate.png">
+    <img src="/assets/img/terraform-associate.png" height="300px" width="300px">
 </p>
 
 
@@ -84,7 +84,7 @@ The difficulty jump from one of the expert certs to this one is still there, I b
 - [John Savill - various YouTube videos in areas of Azure](https://www.youtube.com/channel/UCpIn7ox7j7bH_OFj7tYouOQ)
 
 <p align="center">
-    <img src="/assets/img/azure-administrator.png">
+    <img src="/assets/img/azure-administrator.png" height="300px" width="300px">
 </p>
 
 
@@ -101,7 +101,7 @@ Should also note, to complete this at the time, you need the AZ-104 or AZ-204 (A
 - [WhizLabs - AZ-400 training courses](https://www.whizlabs.com/microsoft-azure-certification-az-400/)
 
 <p align="center">
-    <img src="/assets/img/azure-devops-engineer.png">
+    <img src="/assets/img/azure-devops-engineer.png" height="300px" width="300px">
 </p>
 
 
@@ -117,7 +117,7 @@ The 303 of these 2 was quite challenging I'd say, the 304 was easier and asked t
 - [Cloud Patterns and Architecture for Microsoft Azure Developers](https://app.pluralsight.com/library/courses/microsoft-azure-cloud-patterns-architecture/table-of-contents)
 
 <p align="center">
-    <img src="/assets/img/azure-solutions-architect.png">
+    <img src="/assets/img/azure-solutions-architect.png" height="300px" width="300px">
 </p>
 
 
@@ -133,14 +133,14 @@ I think this exam could be a lot better or even have an expert level to discuss 
 - [Inside Cloud and Security YouTube Channel](https://www.youtube.com/channel/UCAr0yk0um7lwLjmrKfzwyig)
 
 <p align="center">
-    <img src="/assets/img/azure-security-engineer.png">
+    <img src="/assets/img/azure-security-engineer.png" height="300px" width="300px">
 </p>
 
 
 ### AZ-700 - Microsoft Certified: Azure Network Engineer Associate - X/10
 
 <p align="center">
-    <img src="/assets/img/azure-network-engineer.png">
+    <img src="/assets/img/azure-network-engineer.png" height="300px" width="300px">
 </p>
 
 ## So what's next?
