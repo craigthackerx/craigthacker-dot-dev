@@ -9,7 +9,7 @@ permalink: /blog/certs-difficulty
 
 I have managed to clear my way through quite a few certifications in the last year, and I often get asked about what my study material is, how hard it was, how many hours it took me etc.  I have had great opportunities to develop myself as a professional at my role in the [NSS](https://www.nss.nhs.scot/), whom provide me access to several avenues of study materials and the ability to book my own exams via Microsoft.
 
-Certifications are great for solidify some skills and validate yourself to a criteria _for someone else to see_.  Personally, I don't think certifications provide any real value as to how "_good_" someone is at a task.  I am not sure if that's a controversial opinion or not, but often, others can judge certs to mean that someone has acquired some deeper insight into a topic over those who don't have the same certification.
+Certifications are great for solidifying some skills and validate yourself to a criteria _for someone else to see_.  Personally, I don't think certifications provide any real value as to how "_good_" someone is at a task.  I am not sure if that's a controversial opinion or not, but often, others can judge certs to mean that someone has acquired some deeper insight into a topic over those who don't have the same certification.
 
 That is rubbish.  I have met professionals in my career who have no professional qualifications, no bachelors, no masters - and I could only dream of being as wise as they are in some of the subjects we share interests in.
 
