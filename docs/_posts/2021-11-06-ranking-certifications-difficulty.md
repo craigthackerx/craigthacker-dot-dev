@@ -137,7 +137,17 @@ I think this exam could be a lot better or even have an expert level to discuss 
 </p>
 
 
-### AZ-700 - Microsoft Certified: Azure Network Engineer Associate - X/10
+### AZ-700 - Microsoft Certified: Azure Network Engineer Associate - 4/10
+
+I sat this exam shortly before it came out of beta.  Similar to my security background, I also studied networking at university and have a now expired CCNA certification, so many concepts around fundamental routing in networking isn't "new" to me - and with all my other Azure experience - I would say my Azure networking skills are very solid
+
+It's hard to give huge advice against this exam as it is very new, but I'll do my best:
+
+- Understand ExpressRoutes
+- Understand Traffic Manager
+- Understand NAT Gateway, VNet Gateways and how forwarded and gateway transit works
+- Understand BGP (Sorry Meta network employee's, might want to skip this one :wink: )
+- Understand use cases of load balancers
 
 <p align="center">
     <img src="/assets/img/azure-network-engineer.png" height="300px" width="300px">
@@ -145,7 +155,7 @@ I think this exam could be a lot better or even have an expert level to discuss 
 
 ## So what's next?
 
-I plan to sit atleast 2 more certifications before the end of 2021 and try to update this list with my verdict of those, but hopefully this list has given an idea of how difficult I have judged the exams I have done thus far.
+I plan to sit at least 1 more certifications before the end of 2021 and try to update this list with my verdict of those, but hopefully this list has given an idea of how difficult I have judged the exams I have done thus far.
 
 <p align="center">
     <img src="/assets/memes/meme11.jpg">
