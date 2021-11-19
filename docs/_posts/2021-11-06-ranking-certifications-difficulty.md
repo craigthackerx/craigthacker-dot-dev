@@ -146,7 +146,7 @@ It's hard to give huge advice against this exam as it is very new, but I'll do m
 - Understand ExpressRoutes
 - Understand Traffic Manager
 - Understand NAT Gateway, VNet Gateways and how forwarded and gateway transit works
-- Understand BGP (Sorry Meta network employee's, might want to skip this one :wink: )
+- Understand BGP (Sorry Meta network engineer employee's, might want to skip this one :wink:)
 - Understand use cases of load balancers
 
 <p align="center">
