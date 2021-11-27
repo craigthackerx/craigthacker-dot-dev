@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Part 1 - Creating a DevOps Environment - Container using Podman
-subtitle: But it works on my machine!
+title: Part 2 - Creating a DevOps Environment - Container using Podman
+subtitle: kubectl apply -f fix-everything.yml
 permalink: /blog/dev-env-p2
 ---
 
