@@ -171,7 +171,7 @@ This is an exam that I actually studied for since late November 2020, but never 
 ### AWS Cloud Practitoner  - ?/10
 
 <p align="center">
-    <img src="/assets/img/aws-cloud-practitioner.png" height="300px" width="300px">
+    <img src="/assets/img/aws-cloud-practitoner.png" height="300px" width="300px">
 </p>
 
 
