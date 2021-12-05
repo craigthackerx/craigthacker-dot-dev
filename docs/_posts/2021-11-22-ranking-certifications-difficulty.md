@@ -153,9 +153,31 @@ It's hard to give huge advice against this exam as it is very new, but I'll do m
     <img src="/assets/img/azure-network-engineer.png" height="300px" width="300px">
 </p>
 
+
+### AZ-204 - Microsoft Certified: Azure Developer Associate - 7/10
+
+This is an exam that I actually studied for since late November 2020, but never had the guts to sit it till November 2021.  The reason it took me too long is the fact that you need to study a Azure SDK language.  My preference is Python, but all the revision materials I had seen referred to C#, which makes sense, it is Microsoft Java after all.  But when I get to the exam, it asks me if I'd like to sit in Python or C#!, Well, I did on and off studying of C# for 12 months so went with it for the similarity in questions but I didn't know this at the time.
+
+- Understand Azure-CLI
+- Understand Docker
+- Understand various C# concepts, `this`, `async`, format strings etc
+- [WhizLabs - AZ-204](https://www.whizlabs.com/microsoft-azure-certification-az-204/)
+
+<p align="center">
+    <img src="/assets/img/azure-developer.png" height="300px" width="300px">
+</p>
+
+
+### AWS Cloud Practitoner  - ?/10
+
+<p align="center">
+    <img src="/assets/img/aws-cloud-practitioner.png" height="300px" width="300px">
+</p>
+
+
 ## So what's next?
 
-I plan to sit at least 1 more certifications before the end of 2021 and try to update this list with my verdict of those, but hopefully this list has given an idea of how difficult I have judged the exams I have done thus far.
+My journey is now to begin down the AWS or GCP path, as well as attain some Kubernetes certification or maybe a RedHat one.  Stay tued with my LinkedIn for updates on my career :wink:
 
 <p align="center">
     <img src="/assets/memes/meme11.jpg">
