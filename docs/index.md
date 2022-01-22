@@ -22,7 +22,7 @@ I spend most of my time at work in an Azure environment and take particular inte
 
 ## Azure DevOps
 
-Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a public instance [here](https://dev.azure.com/craigtho/craigtho-azdo) - if you are interested in reading some of my spaghetti code.  
+Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a public instance [here](https://dev.azure.com/craigthackerx/craigthackerx-azdo) - if you are interested in reading some of my spaghetti code.  
 
 ## Memes
 
