@@ -25,7 +25,9 @@ So what do I mean by that? I am not by any stretch telling someone who works in 
 
 ## Agile Vs DevOps
 
-One thing I need to get off my chest - **DevOps Engineer is not a job** in itself.  I am aware that it is ironic I refer to myself as one I know, but, DevOps is an approach, a mindset, a working method - not a job.  DevOps and Agile to me are one and the same, DevOps goal is to bring harmony to the old "silo'ing" in the tech industry, providing a collaborative approach of Developers and Operations to work together.  Agile helps facilitate part of this, with the KanBan and standup's and they both aim to help improve the delivery of business value.
+One thing I need to get off my chest - **DevOps Engineer is not a job** in itself.  Site Reliability Engineer is a job, Platform Engineer is a job, System Engineer is a job, but "DevOps Engineer" is not. I am aware that it is ironic I refer to myself as one I know, but, DevOps is an approach, a mindset, a working method - not a job.  DevOps and Agile to me are one and the same, DevOps goal is to bring harmony to the old "silo'ing" in the tech industry, providing a collaborative approach of Developers and Operations to work together.  It is entirely possible that a SCRUM Master can refer to themself as "DevOps", as well as a Software Developer and a Platform Engineer, for me, it is a declaration that this is how you like to work rather than it being a job. 
+
+Agile helps facilitate part of this, with the KanBan and standup's and they both aim to help improve the delivery of business value.
 
 When I refer to myself as "a DevOps Engineer", it is not only to show my category of job, but to show that I am thinking in Agile, I am trying to provide that workflow between Development and Operations. So as a wholesale, If you are a `* engineer`, who is trying to implement Agile - you are likely also, a DevOps Engineer, at least in theory.  Liking YAML helps too.
 

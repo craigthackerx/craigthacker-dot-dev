@@ -4,7 +4,7 @@ title: Craig Thacker
 gh-repo: craigthackerx/craigthacker-dot-dev
 ---
 
-I'm a DevOps Engineer and enjoy providing modern solutions to age old IT problems. I am currently working as a Principal Engineer for [NHS National Services Scotland](https://www.nss.nhs.scot/) in the Cloud team there. I am always working in the usual topics DevOps folk are, such as:
+I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problems. I am currently working as a Azure Cloud Engineer for [Keoghs](https://keoghs.co.uk/) in the Platform Engineering team there. I am always working in the usual topics DevOps folk are, such as:
 
 - Terraform
 - Docker/Kubernetes
