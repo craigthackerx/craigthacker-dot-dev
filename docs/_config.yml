@@ -39,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "craigthacker95@gmail.com"
+  email: "craig@craigthacker.dev"
   github: "craigthackerx"
   linkedin: "craig-thacker"
   stackoverflow: "16140100/craig-thacker"
