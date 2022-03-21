@@ -20,9 +20,11 @@ I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problem
 I spend most of my time at work in an Azure environment and take particular interest environments within Microsoft Azure, if you are interested in collaborating or want to get in contact with me, use the email link provided on this site, or contact me via Keybase for secure end-to-end encrypted messages.
 
 
-## Azure DevOps
+## Libre DevOps
 
-Being interested in Azure, I deploy some of my stuff on Azure DevOps, I have a public instance [here](https://dev.azure.com/craigthackerx/craigthackerx-azdo) - if you are interested in reading some of my spaghetti code.  
+I have recently began moving some of my personal projects to [Libre DevOps](https://libredevops.org) which aims to move my ideas to a more universal name and a more collaborative community driven approach at delivering reusable solutions, so please check it out if you want to see some of my portfolio work ontop of my own GitHub.
+
+Interesting collaborating :rainbow:?  Check out the Libre DevOps website and get in touch with myself for more info!
 
 ## Memes
 
