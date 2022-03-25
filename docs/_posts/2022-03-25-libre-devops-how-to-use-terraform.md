@@ -4,10 +4,10 @@ title: Announcing Libre DevOps - My sometimes portfolio home!  - Also, a simple 
 subtitle: “The key in such a transition to continuous delivery is to expect things to get worse before you’ll be able to make them better.” - Matthias Marschall
 nav_order: 104
 parent: Blog
-permalink: /blog/setup-terraform
+permalink: /blog/how-to-use-terraform
 ---
 
-Firstly, before I get into the meat of the post which is talking about the main part of this post (which is a basic setup on how to use terraform in Azure), I wanted to announce I now have a _second site_ which you can consider a portfolio for myself and hopefully other like minded engineers to work on.  You can find the info over at [libredevops.org](https://libredevops.org).
+Firstly, before I get into the meat of the post which is talking about the main part of this post (which is a basic setup on how to use terraform in Azure), I wanted to announce I now have a _second site_ which you can consider a portfolio for myself and hopefully other like-minded engineers to work on.  You can find the info over at [libredevops.org](https://libredevops.org).
 
 I decided to move things away from my own name and personal GitHub, and instead unify it under a single organisation with a more "hospitable" name, in that, I think it looks a little more professional when you are using an organisation resource instead of a single guys.
 
@@ -60,7 +60,7 @@ I want to take the time to give each of these recommendations some words on why 
 
 ### Migrate to centrally controlled storage
 
-Your state file contains the keys to the kingdom, and its basically in plain text.  It has everything it needs with detailed information on passwords, encryption keys, everything.  This is because that's how it works, you can't get around it,  you can pay for Terraform Cloud which may be an option for you, but maybe you need to consider perimeter network issues (like I already said) so that's no good for you.  The local backend is quick, but its also easy to accidentally commit to git which is basically a 10/10 breach is your git is public.  Instead, move your state to a `azurerm` backend like [here](https://www.terraform.io/language/settings/backends/azurerm).  Be sure to to consider rolling access keys, giving least privilege via SAS tokens, this can be done with the Key vault managed storage as listed above.
+Your state file contains the keys to the kingdom, and its basically in plain text.  It has everything it needs with detailed information on passwords, encryption keys, everything.  This is because that's how it works, you can't get around it,  you can pay for Terraform Cloud which may be an option for you, but maybe you need to consider perimeter network issues (like I already said) so that's no good for you.  The local backend is quick, but its also easy to accidentally commit to git which is basically a 10/10 breach is your git is public.  Instead, move your state to a `azurerm` backend like [here](https://www.terraform.io/language/settings/backends/azurerm).  Be sure to consider rolling access keys, giving the least privilege via SAS tokens, this can be done with the Key vault managed storage as listed above.
 
 You need to consider other things such as IAM access, firewalls, encryption keys, all of this will come very easily when using managed storage like Azure Storage Account
 
@@ -74,7 +74,7 @@ For this then, I recommend you set up your pipelines using native commands inste
 
 ### Use service accounts for authentication
 
-Noone knows what will happen in this world.  If you are using someone's user account via `az login` or something, this is bad.  What if they get hit by a bus? What if they win the lottery?  Again, this isn't centrally controlled.  As per the [Microsoft recommendations on identity](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-governing-azure#plan-your-service-account), use managed identities when possible, if you cannot, use a service principal, if you cannot even do that, only then do you use a user.  The reason why I'd say use Managed Identities is I've seen people not consider how to renew service principal keys or certificates.
+No-one knows what will happen in this world.  If you are using someone's user account via `az login` or something, this is bad.  What if they get hit by a bus? What if they win the lottery?  Again, this isn't centrally controlled.  As per the [Microsoft recommendations on identity](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/service-accounts-governing-azure#plan-your-service-account), use managed identities when possible, if you cannot, use a service principal, if you cannot even do that, only then do you use a user.  The reason why I'd say use Managed Identities is I've seen people not consider how to renew service principal keys or certificates.
 
 If you are using service principals right now, and you are not managing key expiry and rolling keys, you are doing it wrong.  I don't have an easy solution for this problem, which is why I recommend managed identities, as its all done for you, and they do [work with terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/managed_service_identity).
 
@@ -86,11 +86,12 @@ Too often have I seen people be given keys and treated as trusted to do what the
 
 ### Setup a Terraform Standard with Type Safety etc
 
-This one is important.  You give infinite monkeys infinite time and they will eventually type the works of Shakespeare - [Infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem).  Every single engineer is going to do this a way they have preference of, if you copy the stuff from Libre DevOps, its natural you will see things that I understand, and you don't which is why collaboration and continuous improvement is required for DevOps to work. Before anyone starts writing a word of terraform, establish the follow for example:
+This one is important.  You give infinite monkeys infinite time, and they will eventually type the works of Shakespeare - [Infinite monkey theorem](https://en.wikipedia.org/wiki/Infinite_monkey_theorem).  Every single engineer is going to do this a way they have preference of, if you copy the stuff from Libre DevOps, its natural you will see things that I understand, and you don't which is why collaboration and continuous improvement is required for DevOps to work. Before anyone starts writing a word of terraform, establish the follow for example:
 
 - Variable naming
 - Style of variables, e.g. `snake_case`, `TitleCase`, `SCREAMING_SNAKE`, `camelCase`
 - Module structure
+- State Management and usage of terraform workspaces
 - Ensure standard name for `terraform.tf` `azure-provider.tf`, `configuration_alias`
 - Determine when and if you should be pinning terraform provider and language version, `required_version = 1.17` etc.
 - And special mention to something I see poorly utilised - **Type Safety**
@@ -122,9 +123,9 @@ variable "secret_ingredient" {
 }
 ```
 
-As you can see, I have explicitly set the type of these variables, when I am writing modules which potentially will be used 1000s of times, its so important to ensure noone tries to give my module an invalid input.  You need to fail fast and early.
+As you can see, I have explicitly set the type of these variables, when I am writing modules which potentially will be used 1000s of times, it's so important to ensure no-one tries to give my module an invalid input.  You need to fail fast and early. If I give `bar` a map, terraform will error, if I give foo a number, it will error, so I must comply straight away. Another thing to consider is usage of validation rules.
 
-I have seen something quite strange recently in that I have seen people using regex's to do a find and replace with terraform code "to omit secrets" from the code.  Well, sorry, if you are doiung that and doing something like:
+I have seen something quite strange recently in that I have seen people using regex's to do a find and replace with terraform code "to omit secrets" from the code.  Well, sorry, if you are doing that and doing something like:
 
 ```hcl
 resource "azurerm_windows_virtual_machine" "example_vm" {
@@ -137,7 +138,7 @@ Sorry to tell you, you are doing it wrong - your secrets are more hidden than th
 
 As such, my recommendation for the regexers out there - set your variables using key vault environment variables, pass these to terraform code using `auto.tfvars` and ensure the input declaration has the sensitive flag declared when it's appropriate, and simply replace the value of the `tfvars` rather than replacing code itself.  Another thing, make sure these are replaced and deleted when - otherwise, same as before, Man in the Middle potential.
 
-PS, don't know who needs to hear this, but in Azure, if its an "ID", e.g. Tenant ID, Subscription ID etc., it's probably not a secret.  If it's a "Key", API Key, Storage Key, Instrumentation key, its probably a secret, ensure those are always stored in a key vault with a firewall and proper access control 
+PS, don't know who needs to hear this, but in Azure, if it's an "ID", e.g. Tenant ID, Subscription ID etc., it's probably not a secret.  If it's a "Key", API Key, Storage Key, Instrumentation key, its probably a secret, ensure those are always stored in a key vault with a firewall and proper access control 
 
 ### Consider Perimeter Network and Host management
 
@@ -175,8 +176,6 @@ Another thing - is when terraform just isn't supported for a resource. In those 
 
 Finally, you need to set the ground rules on when this happens.  One thing you will find if you say someone can use one tool in some cirumstances is they will try to make that cirumstance occur - terraform has only ever not worked for me once in my entire career, you should set a boundary like a "rule of 2", where 2 people on the team need to agree that its not functionally possible with Terraform.  As I keep rattling on about, when you go down this standardisation route, your people need to change as much as the org does, and they need to understand that if terraform is mandated as the chosen tool for IaC in the tool, with type safety, security, all these things considered, then they are doing it the company standard way. 
 
-
-
 ## Conclusion
 
 Terraform setup can be hard, and hopefully this gives you some good technical questions to consider as well as to examples as to why and how.  I have various resources on implementing this within enterprise, so if you are interested, message me to discuss :smile:
@@ -186,4 +185,3 @@ Also, please check out, contribute, whatever,  [libredevops](https://github.com/
 <p align="center">
     <img src="/assets/meme/meme12.jpg">
 </p>
-
