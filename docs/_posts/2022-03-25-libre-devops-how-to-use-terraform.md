@@ -184,6 +184,6 @@ Terraform setup can be hard, and hopefully this gives you some good technical qu
 Also, please check out, contribute, whatever,  [libredevops](https://github.com/libre-devops)!
 
 <p align="center">
-    <img src="/assets/img/meme12.jpg">
+    <img src="/assets/meme/meme12.jpg">
 </p>
 
