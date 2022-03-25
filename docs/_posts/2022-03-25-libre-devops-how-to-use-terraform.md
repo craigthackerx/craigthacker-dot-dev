@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Announcing Libre DevOps - My sometimes portfolio home!  - Also, a simple guide to using Terraform in Azure
+title:  How to correctly use Terraform in Azure - also, Announcing Libre DevOps - My new portfolio home for technical content!
 subtitle: “The key in such a transition to continuous delivery is to expect things to get worse before you’ll be able to make them better.” - Matthias Marschall
 nav_order: 104
 parent: Blog
