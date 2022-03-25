@@ -168,16 +168,36 @@ This is an exam that I actually studied for since late November 2020, but never 
 </p>
 
 
-### AWS Cloud Practitoner  - ?/10
+### AWS Cloud Practitioner  - 2/10
 
+Quite an easy exam, it only took me around 2 days to study for (I do have some AWS experience).  I am an Azure guy primarily, but I made use of the amazing [AWS to Azure services comparison](https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services) which was a great help for me.
+
+- Understand core AWS Services
+- What is CloudFront
+- Why go to cloud
+- [Andrew Brown - AWS Certified Cloud Practitioner Course](https://www.youtube.com/watch?v=SOTamWNgDKc)
 <p align="center">
     <img src="/assets/img/aws-cloud-practitioner.png" height="300px" width="300px">
+</p>
+
+### AZ-140 - Microsoft Certified: Azure Virtual Desktop Speciality - 6/10
+
+An interesting exam, it's my first "speciality" exam, which I guess is treated different from an expert level in Microsoft world.  I'm not sure these "Fundamentals", "Associate", "Expert", "Speciality" tags are actually worth it to be honest.  This exam wasn't really that hard, but as the title indicates, its a speciaity which requires knowing quite a bit about a specific topic.  I know AVD, I used WVDv1 back when it came out when I worked at a previous role, and also began migrating that to WVDv2, which later became AVD, so I  have some pretty good experience.  I will admit, this exam didn't really prepare me for any of the problems I have come across in the work place, so maybe "Speciality" is generous, but, either way, another one passed for whatever its worth...
+
+- Breadth vs Width first
+- How to compile MSIX packages and upload correctly
+- What happens when something is in "drain mode"
+- [Azure Academy - AZ-140 Full Course](https://www.youtube.com/watch?v=DZNc1DQxEEA&list=PL-V4YVm6AmwW1DBM25pwWYd1Lxs84ILZT)
+- [John Savill - AVD Study Cram](https://www.youtube.com/watch?v=VOod_VNgdJk&t=5s)
+
+<p align="center">
+    <img src="/assets/img/azure-virtual-desktop-speciality.png" height="300px" width="300px">
 </p>
 
 
 ## So what's next?
 
-My journey is now to begin down the AWS or GCP path, as well as attain some Kubernetes certification or maybe a RedHat one.  Stay tued with my LinkedIn for updates on my career :wink:
+Unsure what's next, I have a few more Azure exams in mind I'd like to do, or maybe I return to HashiCorp for Vault or Consul...mostly going to spend time doing self-directed personal study rather than aim for exams for the next little while
 
 <p align="center">
     <img src="/assets/memes/meme11.jpg">
