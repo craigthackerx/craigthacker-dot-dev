@@ -10,7 +10,8 @@ window.onload = function chooseMeme() {
         "/assets/memes/meme8.jpg",
         "/assets/memes/meme9.jpg",
         "/assets/memes/meme10.jpg",
-        "/assets/memes/meme11.jpg"
+        "/assets/memes/meme11.jpg",
+        "/assets/memes/meme12.jpg"
     ];
     let randomNumber = Math.floor(Math.random() * memes.length);
     document.getElementById("image-fetch").src = memes[randomNumber];

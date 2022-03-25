@@ -2,6 +2,8 @@
 layout: post
 title: Agile in Enterprise - An Engineer's perspective
 subtitle: What is your forecast for today?
+nav_order: 100
+parent: Blog
 permalink: /blog/agile-in-enterprise
 ---
 

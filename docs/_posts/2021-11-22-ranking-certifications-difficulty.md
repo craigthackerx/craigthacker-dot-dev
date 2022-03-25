@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Ranking my Certifications in difficulty
-subtitle: “Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid. - Albert Einstein
+subtitle: “Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid." - Albert Einstein
+nav_order: 103
+parent: Blog
 permalink: /blog/certs-difficulty
 ---
 

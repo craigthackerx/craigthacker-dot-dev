@@ -2,6 +2,8 @@
 layout: post
 title: Creating a DevOps Environment VM using Vagrant
 subtitle: But it works on my machine!
+nav_order: 102
+parent: Blog
 permalink: /blog/dev-env-p1
 ---
 
