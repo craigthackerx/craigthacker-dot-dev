@@ -25,7 +25,7 @@ There are numerous guides on getting started with Terraform, the [HashiCorp docu
 
 I find that some people tell me that they want to use DevOps and setup Terraform, but they just don't know how.  They've seen the job adverts and what others who claim to be successful are doing, and they want that.  So then "it" happens, a wide-spread adoption of "DevOps", where everyone claims they are experts in Agile and Project Manager's begin using Jira like a weapon.
 
-I put a quote in my subtitle from [Mattias Marschall](https://twitter.com/mmarschall) of Google, and I honestly can't agree more with it.  When you begin doing this DevOps stuff, you will make it worse before it gets better, you are going to be improving in a cycle, and that means you will learn.  Sure, you can hire contractors or hire experienced staff who can share knowledge, but that won't work for everyone and that's why seeking proper Agile and DevOps training is important, as the people need to change as much as an organisation.
+I put a quote in my subtitle from [Mattias Marschall](https://twitter.com/mmarschall) of Google, and I honestly can't agree more with it.  When you begin doing "this thing of ours", you will make it worse before it gets better, you are going to be improving in a cycle, and that means you will learn.  Sure, you can hire contractors or hire experienced staff who can share knowledge, but that won't work for everyone and that's why seeking proper Agile and DevOps training is important, as the people need to change as much as an organisation.
 
 I digress, I covered most of this in my [agile](https://www.craigthacker.dev/blog/agile-in-enterprise), but I want to cover something technical.  Terraform to be exact.
 
