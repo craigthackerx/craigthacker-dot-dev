@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Part 1 - Creating a DevOps Environment - VM using Vagrant
+title: Creating a DevOps Environment VM using Vagrant
 subtitle: But it works on my machine!
 permalink: /blog/dev-env-p1
 ---
@@ -16,15 +16,10 @@ I often do my best to do a "documentation script" and fill in the `README.md` as
 Linus Torvald's once said:
 > Talk is cheap, show me the code.
 
-and this series of posts is dedicated to that, for people who want to get setup in a development environment and begin DevOps best practices locally, and begin providing some continuity in your development.  If it works in dev, its more likely to work in prod after all right?...right?
+and this post is dedicated to that, for people who want to get setup in a development environment and begin DevOps best practices locally, and begin providing some continuity in your development.  If it works in dev, its more likely to work in prod after all right?...right?
 
-Anyway, there are far too many products to cover in 1 blog, and everyone's workflow can be completely different, which makes this very hard topic for someone to tell you what is best and how to do things securely for your environment, so my hopes for these blogs are to cover the following:
+Anyway, there are far too many products to cover in 1 blog, and everyone's workflow can be completely different, which makes this very hard topic for someone to tell you what is best and how to do things securely for your environment, so my hopes for this post is to get you running your own VM made in IaC by the end.
 
-- Part 1 - Making a DevOps VM using [Vagrant](https://www.vagrantup.com/)
-- Part 2 - Making a DevOps Container using [Podman](https://podman.io/)
-- Part 3 - Making a DevOps environment in Azure using [Terraform](https://www.terraform.io/)
-- Part 4 - Building your own Self-Hosted Azure DevOps agent using [Podman](https://podman.io/)
-- Part 5 - Hosting your Azure DevOps agent in Azure using [Azure Container Instances](https://azure.microsoft.com/en-gb/services/container-instances/#overview)
 
 <p align="center">
     <img src="/assets/memes/meme7.jpg">
@@ -43,7 +38,7 @@ Right now, I am running this lab on my Desktop which is running Windows 10 lates
 ## Vagrant
 
 Vagrant is (another) great tool by HashiCorp, it essentially allows you to produce a local development environment in a simple Infrastructure as Code style using 
-Ruby syntax.  Local development (as in, physically on the device I am typing on) is not something I am doing a lot of these days, I would say I am more in the Part 3 of this series camp, where I have an environment I can test deployments to in Azure, but nonetheless, if you are developing locally for whatever reason, then Vagrant might be the answer you are looking for.
+Ruby syntax.  Local development (as in, physically on the device I am typing on) is not something I am doing a lot of these days, as I have an environment I can test deployments to in Azure, but nonetheless, if you are developing locally for whatever reason, then Vagrant might be the answer you are looking for.
 
 I have had some Vagrant images posted in the past when I did do more local development, which are Ubuntu 18.04 and quite out of date now, so for this series, I want to try and a more up to date one.
 
@@ -160,9 +155,6 @@ My VM is alive again, but now on my laptop!  This is a great way if you have mul
 <p align="center">
     <img src="/assets/img/vagrant-vm-alive-again.png">
 </p>
-
-
-**Stay tuned for the next parts of this series and other parts of my blog!**
 
 <br/>
 
