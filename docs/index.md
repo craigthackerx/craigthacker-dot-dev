@@ -22,7 +22,7 @@ I spend most of my time at work in an Azure environment and take particular inte
 
 I have recently began moving some of my personal projects to [Libre DevOps](https://libredevops.org), which aims to move my ideas to a more universal name and a more collaborative community driven approach at delivering reusable solutions, so please check it out if you want to see some of my portfolio work ontop of my own GitHub.
 
-Interesting collaborating :rainbow:?  Check out the Libre DevOps website and [get in touch](mailto:craig@craigthacker.dev) with myself for more info!
+Interested in collaborating :rainbow:?  Check out the Libre DevOps website and [get in touch](mailto:craig@craigthacker.dev) with myself for more info!
 
 ## Memes
 
