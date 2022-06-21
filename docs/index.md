@@ -24,10 +24,6 @@ I have recently began moving some of my personal projects to [Libre DevOps](http
 
 Interested in collaborating :rainbow:?  Check out the Libre DevOps website and [get in touch](mailto:craig@craigthacker.dev) with myself for more info!
 
-## Memes
-
-I sometimes make memes to find some humour in my work. Check out the [Memes](https://craigthacker.dev/memes) page for some of my musings.
-
 ## Blog
 
 I have started blogging again! Check out what I've got at the [blogs page](https://craigthacker.dev/blog)
