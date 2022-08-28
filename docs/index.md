@@ -4,7 +4,7 @@ title: Craig Thacker
 gh-repo: craigthackerx/craigthacker-dot-dev
 ---
 
-I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problems. I am currently working as Senior Azure Engineer for [Ofgem](https://www.ofgem.gov.uk/). I am always working in the usual topics DevOps folk are, such as:
+I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problems. I am currently working as Senior Azure Systems engineer for [Tesco Bank](https://www.tescobank.com). I am always working in the usual topics DevOps folk are, such as:
 
 - Terraform
 - Docker/Kubernetes
