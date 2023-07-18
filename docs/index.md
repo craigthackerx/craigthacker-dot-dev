@@ -4,18 +4,20 @@ title: Craig Thacker
 gh-repo: craigthackerx/craigthacker-dot-dev
 ---
 
-I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problems. I am currently working as Senior Azure Systems Engineer for [Tesco Bank](https://www.tescobank.com). I am always working in the usual topics DevOps folk are, such as:
+I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problems. I am currently working as the Lead Engineer for the Azure platform at [Tesco Bank](https://www.tescobank.com). I am always working in the usual topics DevOps folk are, such as:
 
 - Terraform
-- Docker/Kubernetes
+- Docker/Kubernetes/Podman
 - Blaming DNS for a variety of problems
 - Python Development
 - Agile & Scrum Methodology
 - Drinking too much or too little coffee
-- Cloud Services
+- Cloud Services (I love Azure!)
 - Complaining in general, normally about JavaScript frameworks
 - Highly available Solution Architecture
 - Cyber Security
+- Trying to learn Rust, crying myself to sleep, and crawling back to Python
+- Windows and PowerShell Automation
 
 I spend most of my time at work in an Azure environment and take particular interest environments within Microsoft Azure, but always interested in new and trendy concepts in the world of DevOps and IT.
 ## Libre DevOps
