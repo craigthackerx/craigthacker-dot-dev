@@ -2,13 +2,13 @@
 layout: null
 ---
 {
-  "images": [
-    {% assign images = "" | split: "" %}
-    {% for image in site.static_files %}
-      {% if image.path contains '/assets/memes/' and (image.extname == '.jpg' or image.extname == '.png' or image.extname == '.gif') %}
-        {% assign images = images | push: image.path %}
+  "media": [
+    {% assign media_files = "" | split: "" %}
+    {% for file in site.static_files %}
+      {% if file.path contains '/assets/memes/' and (file.extname == '.jpg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.mp4') %}
+        {% assign media_files = media_files | push: file.path %}
       {% endif %}
     {% endfor %}
-    {{ images | join: "," }}
+    {{ media_files | join: "," }}
   ]
 }
