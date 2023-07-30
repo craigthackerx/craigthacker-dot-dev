@@ -1,8 +1,8 @@
 // Get the current URL
 const url = window.location.href;
 
-// If the URL includes "memes", run the script
-if(url.includes("/memes")) {
+// If the URL is exactly "https://craigthacker.dev/memes", run the script
+if(url === "https://craigthacker.dev/memes") {
     fetch('/images.json')
         .then(response => response.json())
         .then(data => {
