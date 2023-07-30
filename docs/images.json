@@ -1,0 +1,14 @@
+---
+layout: null
+---
+{
+  "images": [
+    {% assign images = "" | split: "" %}
+    {% for image in site.static_files %}
+      {% if image.path contains '/assets/memes/' and (image.extname == '.jpg' or image.extname == '.png' or image.extname == '.gif') %}
+        {% assign images = images | push: image.path %}
+      {% endif %}
+    {% endfor %}
+    {{ images | join: "," }}
+  ]
+}
