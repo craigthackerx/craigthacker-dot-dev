@@ -9,6 +9,6 @@ layout: null
         {% assign media_files = media_files | push: file.path %}
       {% endif %}
     {% endfor %}
-    {{ media_files | join: "," }}
+    {{ media_files | map: "prepend", "'" | map: "append", "'" | join: "," }}
   ]
 }
