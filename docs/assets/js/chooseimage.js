@@ -1,8 +1,8 @@
 // Get the current URL
-const url = window.location.href;
+const currentURL = window.location.href;
 
 // If the URL is exactly "https://craigthacker.dev/memes", run the script
-if(url === "https://craigthacker.dev/memes") {
+if(currentURL === "https://craigthacker.dev/memes") {
     fetch('/images.json')
         .then(response => response.json())
         .then(data => {
