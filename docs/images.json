@@ -1,12 +1,21 @@
 ---
 layout: null
 ---
+{% assign media_files = "" %}
+{% for image in site.static_files %}
+  {% if image.path contains '/assets/memes/' and (image.extname == '.jpg' or image.extname == '.png' or image.extname == '.gif' or image.extname == '.mp4') %}
+    {% assign media_files = media_files | append: image.path | append: ',' %}
+  {% endif %}
+{% endfor %}
+{% assign media_files = media_files | split: ',' %}
 {
   "media": [
-    {% for image in site.static_files %}
-      {% if image.path contains '/assets/memes/' and (image.extname == '.jpg' or image.extname == '.png' or image.extname == '.gif' or image.extname == '.mp4') %}
-        "{{ image.path }}"{% unless forloop.last %},{% endunless %}
-      {% endif %}
+    {% for file in media_files %}
+      {% unless forloop.last %}
+        "{{ file }}",
+      {% else %}
+        "{{ file }}"
+      {% endunless %}
     {% endfor %}
   ]
 }
