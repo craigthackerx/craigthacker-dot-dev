@@ -4,9 +4,9 @@ layout: null
 {
   "media": [
     {% for file in site.static_files %}
-      {% if file.path contains '/assets/memes/' and (file.extname == '.jpg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.mp4') %}
-        "{{ file.path }}"{% unless forloop.last %},{% endunless %}
-      {% endif %}
+        {% if file.path contains '/assets/memes/' and (file.extname == '.jpg' or file.extname == '.png' or file.extname == '.gif' or file.extname == '.mp4') %}
+            "{{ file.path }}"{% unless forloop.last %},{% endunless %}
+        {% endif %}
     {% endfor %}
   ]
 }
