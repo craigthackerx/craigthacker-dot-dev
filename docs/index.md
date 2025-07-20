@@ -4,7 +4,7 @@ title: Craig Thacker
 gh-repo: craigthackerx/craigthacker-dot-dev
 ---
 
-I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problems. I am currently working as a Cloud Data Platform Engineer, working in the Azure Data Platform team at [First Central Group](https://www.firstcentralgroup.com/). I am always working in the usual topics DevOps folk are, such as:
+I'm a DevOps Engineer, learning MLOps and enjoy providing modern solutions to age-old IT problems. I am currently working as a Senior MLOps Engineer, working in the Data Science Platform team at [1st Central ](https://www.1stcentralinsurance.com/). I am always working in the usual topics DevOps folk are, such as:
 
 - Terraform
 - Docker/Kubernetes/Podman
@@ -20,15 +20,12 @@ I'm a DevOps Engineer and enjoy providing modern solutions to age-old IT problem
 - Windows and PowerShell Automation
 
 I spend most of my time at work in an Azure environment and take particular interest environments within Microsoft Azure, but always interested in new and trendy concepts in the world of DevOps and IT.
+
 ## Libre DevOps
 
 I have recently began moving some of my personal projects to [Libre DevOps](https://libredevops.org), which aims to move my ideas to a more universal name and a more collaborative community driven approach at delivering reusable solutions, so please check it out if you want to see some of my portfolio work ontop of my own GitHub.
 
 Interested in collaborating :rainbow:?  Check out the Libre DevOps website and [get in touch](mailto:craig@craigthacker.dev) with myself for more info!
-
-## Blog
-
-I have started blogging again! Check out what I've got at the [blogs page](https://craigthacker.dev/blog)
 
 ### Website
 
