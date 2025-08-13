@@ -4,7 +4,7 @@ title: Craig Thacker
 gh-repo: craigthackerx/craigthacker-dot-dev
 ---
 
-I'm a DevOps Engineer, learning MLOps and enjoy providing modern solutions to age-old IT problems. I am currently working as a Senior MLOps Engineer, working in the Data Science Platform team at [1st Central ](https://www.1stcentralinsurance.com/). I am always working in the usual topics DevOps folk are, such as:
+I'm a DevOps Engineer, learning MLOps and enjoy providing modern solutions to age-old IT problems. I am always working in the usual topics DevOps folk are, such as:
 
 - Terraform
 - Docker/Kubernetes/Podman
