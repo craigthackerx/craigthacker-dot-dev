@@ -42,7 +42,8 @@ Check out Libre DevOps and [get in touch](mailto:craig@craigthacker.dev).
 
 ### Website
 
-This site is open source and hosted on GitHub Pages.  
+This site is open source and hosted on GitHub Pages.
+
 You can find the source [here](https://github.com/craigthackerx/craigthacker-dot-dev).
 
 Built with the [Beautiful Jekyll theme](https://github.com/daattali/beautiful-jekyll).  
