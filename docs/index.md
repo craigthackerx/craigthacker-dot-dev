@@ -4,29 +4,46 @@ title: Craig Thacker
 gh-repo: craigthackerx/craigthacker-dot-dev
 ---
 
-I'm a DevOps Engineer, learning MLOps and enjoy providing modern solutions to age-old IT problems. I am always working in the usual topics DevOps folk are, such as:
+Lead DevSecOps Engineer building secure, automated cloud platforms - specialising in Microsoft Azure ☁️🔐  
 
-- Terraform
-- Docker/Kubernetes/Podman
-- Blaming DNS for a variety of problems
-- Python Development
-- Agile & Scrum Methodology
-- Drinking too much or too little coffee
-- Cloud Services (I love Azure!)
-- Complaining in general, normally about JavaScript frameworks
-- Highly available Solution Architecture
-- Cyber Security
-- Trying to learn Rust, crying myself to sleep, and crawling back to Python
-- Windows and PowerShell Automation
+I solve modern infrastructure problems without creating new ones.
 
-I spend most of my time at work in an Azure environment and take particular interest environments within Microsoft Azure, but always interested in new and trendy concepts in the world of DevOps and IT.
+By day, I work across cloud security, automation, and platform engineering in regulated enterprise environments. Outside of that, I’m usually experimenting with MLOps, breaking and rebuilding Terraform modules, or learning more Go (with occasional detours into C#).
+
+You’ll usually find me working on:
+
+- Terraform & Infrastructure as Code (occasionally overengineered, always improved)
+- Kubernetes, Docker & container platforms
+- Microsoft Defender & Cloud Security Engineering
+- Python, Go & PowerShell automation
+- Highly available platform architecture
+- Azure (specialist) & AWS (experienced)
+- Databricks & data platform engineering
+- Agile delivery & DevOps culture
+- Blaming DNS (correctly, most of the time)
+- Drinking either too much or not enough coffee
+
+Azure is my primary domain, where I design secure, scalable environments at enterprise scale. I take particular interest in security-first platform design, governance automation, and building reusable infrastructure patterns, but I'm always learning more and dipping into multi-cloud environments and hybrid setups.
+
+Good engineering principles travel well -whether that’s across clouds, data platforms, or languages I’m currently trying to master.
+
+---
 
 ## Libre DevOps
 
-I have recently began moving some of my personal projects to [Libre DevOps](https://libredevops.org), which aims to move my ideas to a more universal name and a more collaborative community driven approach at delivering reusable solutions, so please check it out if you want to see some of my portfolio work ontop of my own GitHub.
+[Libre DevOps](https://libredevops.org) is my technical portfolio and experimentation space.
 
-Interested in collaborating :rainbow:?  Check out the Libre DevOps website and [get in touch](mailto:craig@craigthacker.dev) with myself for more info!
+It’s where I publish reusable modules, patterns, and ideas that deserve to live beyond a single project. Some things are polished. Some are explorations. All of it is practical.
+
+Interested in collaborating 🌈?  
+Check out Libre DevOps and [get in touch](mailto:craig@craigthacker.dev).
+
+---
 
 ### Website
 
-This site is open source and is hosted on Github Pages! You can find the source for it [here](https://github.com/craigthackerx/craigthacker-dot-dev).  The site is currently using the [Beautfiul Jekyll theme](https://github.com/daattali/beautiful-jekyll).
+This site is open source and hosted on GitHub Pages.  
+You can find the source [here](https://github.com/craigthackerx/craigthacker-dot-dev).
+
+Built with the [Beautiful Jekyll theme](https://github.com/daattali/beautiful-jekyll).  
+Versioned, automated, and probably slightly overengineered.
