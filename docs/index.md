@@ -35,7 +35,8 @@ Good engineering principles travel well -whether that’s across clouds, data pl
 
 It’s where I publish reusable modules, patterns, and ideas that deserve to live beyond a single project. Some things are polished. Some are explorations. All of it is practical.
 
-Interested in collaborating 🌈?  
+Interested in collaborating 🌈?
+
 Check out Libre DevOps and [get in touch](mailto:craig@craigthacker.dev).
 
 ---
